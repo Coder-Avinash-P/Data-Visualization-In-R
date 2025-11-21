@@ -4,7 +4,6 @@ library(ggplot2)
 library(data.table)
 library(ggthemes)
 
-
 df <- read.csv('C:\\Users\\admin\\Desktop\\Online courses\\Udemy\\6. Data Science & ML with R\\Projects\\Economist_Assignment.csv')
 
 #Scatter Plot of CPI and HDI
@@ -49,9 +48,4 @@ dv5 <- dv4 + labs(x="Corruption Perceptions Index,(10=Least)",
            title='Corruption and Human Development')
 
 dv5
-
-
-
-
-
 
